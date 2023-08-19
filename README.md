@@ -1,1 +1,1 @@
-# GENSHINBUILD
+# genshinbuild.com
