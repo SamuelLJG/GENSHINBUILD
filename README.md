@@ -1,1 +1,1 @@
-# genshinbuild.com
+# https://genshinbuild.com/
