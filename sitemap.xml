@@ -13,6 +13,21 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://genshinbuild.com/neuvillette</loc>
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/freminet</loc>
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/lynette</loc>
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://genshinbuild.com/wriothesley</loc>
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>0.80</priority>
