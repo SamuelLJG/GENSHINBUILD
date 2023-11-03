@@ -13,6 +13,21 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://genshinbuild.com/en</loc>
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/en/times</loc>
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/en/tier-list</loc>
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://genshinbuild.com/neuvillette</loc>
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>0.80</priority>
