@@ -485,6 +485,16 @@ function fixi() {
     <script src="JavaScript/darkmode.js"></script>
     <script src="JavaScript/Menu.js"></script>
     <script src="https://kit.fontawesome.com/7e144ec40c.js" crossorigin="anonymous"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        var bloco_anchor;
+        googletag.cmd.push(function() {        
+        bloco_anchor = googletag.defineOutOfPageSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_m_BOTTOM_ANCHOR_11082023', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);
+        if (bloco_anchor) bloco_anchor.addService(googletag.pubads());
+        googletag.enableServices();
+        googletag.display(bloco_anchor);
+        });
+    </script>
 </body>
 
 </html>
