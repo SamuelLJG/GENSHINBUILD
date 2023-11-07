@@ -9,21 +9,19 @@
 
 <url>
   <loc>https://genshinbuild.com/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/" />
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://genshinbuild.com/en/</loc>
+  <loc>https://genshinbuild.com/tier-list</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/tier-list" />
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://genshinbuild.com/en/times</loc>
-  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://genshinbuild.com/en/tier-list</loc>
+  <loc>https://genshinbuild.com/times</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/times" />
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
