@@ -9,14 +9,14 @@
 
 
 <url>
-  <loc>https://genshinbuild.com/</loc>
+  <loc>https://genshinbuild.com</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/" />
   <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/" />
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://genshinbuild.com/en/</loc>
+  <loc>https://genshinbuild.com/en</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/" />
   <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/" />
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
@@ -24,18 +24,43 @@
 </url>
 <url>
   <loc>https://genshinbuild.com/tier-list</loc>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/tier-list" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/tier-list" />
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+<url>
+  <loc>https://genshinbuild.com/en/tier-list</loc>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/tier-list" />
   <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/tier-list" />
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://genshinbuild.com/times</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/times" />
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/times" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/teams" />
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/en/teams</loc>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/times" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/teams" />
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://genshinbuild.com/furina</loc>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/furina" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/furina" />
+  <lastmod>2023-08-12T21:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/en/furina</loc>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/furina" />
   <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/furina" />
   <lastmod>2023-08-12T21:47:22+00:00</lastmod>
   <priority>0.80</priority>
