@@ -8,22 +8,12 @@
 
 
 <url>
-  <loc>https://genshinbuild.com</loc>
-  <lastmod>2023-11-08T23:56:57+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://genshinbuild.com/en</loc>
-  <lastmod>2023-11-08T23:56:57+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://genshinbuild.com/tier-list</loc>
+  <loc>https://genshinbuild.com/</loc>
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://genshinbuild.com/en/tier-list</loc>
+  <loc>https://genshinbuild.com/tier-list</loc>
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -33,17 +23,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://genshinbuild.com/en/teams</loc>
-  <lastmod>2023-11-08T23:56:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://genshinbuild.com/furina</loc>
-  <lastmod>2023-11-08T23:56:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://genshinbuild.com/en/furina</loc>
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -429,6 +409,26 @@
 </url>
 <url>
   <loc>https://genshinbuild.com/zhongli</loc>
+  <lastmod>2023-11-08T23:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/en/</loc>
+  <lastmod>2023-11-08T23:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/en/tier-list</loc>
+  <lastmod>2023-11-08T23:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/en/teams</loc>
+  <lastmod>2023-11-08T23:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshinbuild.com/en/furina</loc>
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
