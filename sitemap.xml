@@ -1,54 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://genshinbuild.com</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/" />
-  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/" />
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://genshinbuild.com/en</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/" />
-  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/" />
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://genshinbuild.com/tier-list</loc>
-  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/tier-list" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/tier-list" />
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://genshinbuild.com/en/tier-list</loc>
-  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/tier-list" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/tier-list" />
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://genshinbuild.com/times</loc>
-  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/times" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/teams" />
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://genshinbuild.com/en/teams</loc>
-  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/times" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/teams" />
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://genshinbuild.com/furina</loc>
-  <xhtml:link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/furina" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://genshinbuild.com/en/furina" />
   <lastmod>2023-11-08T23:56:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
