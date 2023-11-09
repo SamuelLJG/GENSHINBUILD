@@ -2,5 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://genshinbuild.com/sitemap.xml
-
-Disallow: /.git/
