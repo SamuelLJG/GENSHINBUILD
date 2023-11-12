@@ -49,7 +49,9 @@
     <style>
         .adss{position: absolute; top: 0; width: 100%;}
         .horizontal1,.horizontal2,.horizontal3{position: relative;}
-        .horizontal1::before,.horizontal2::before,.horizontal3::before{ content: 'This website is supported by ads.';display: flex; justify-content: center; font-size: 15px; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 90px;}
+        .horizontal1::before,.horizontal2::before,.horizontal3::before{ content: 'This website is supported by ads.';display: flex;  justify-content: center; font-size: 15px; align-items: center; background-color: var(--css); border-radius: 3px; }
+        .horizontal1::before,.horizontal2::before{min-height: 90px;}
+        .horizontal3::before{min-height: 280px;}
         @media only screen and (min-width:1017px){.horizontal2{display: none;}}
     @media only screen and (max-width:1016px){.horizontal1{ display: none;} }
     @media only screen and (max-width:727px){.horizontal2{ display: none;} }
@@ -225,8 +227,8 @@
                         googletag.enableServices();
                         });
                         </script>
-        <div class="adss">
-        <div id="div-gpt-ad-1607239006533-0" style="z-index: 1;">
+        <div class="adss" style="display: block !important;">
+        <div id="div-gpt-ad-1607239006533-0" style="z-index: 1; display: block !important;">
         <script>
                         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006533-0'); });
                         </script></div>
@@ -246,8 +248,8 @@
                     googletag.enableServices();
                     });
                     </script>
-        <div class="adss">
-        <div id="div-gpt-ad-1606111128215-0" style="z-index: 1;">
+        <div class="adss" style="display: block !important;">
+        <div id="div-gpt-ad-1606111128215-0" style="z-index: 1; display: block !important;">
         <script>
                     googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128215-0'); });
                     </script></div>
@@ -267,8 +269,8 @@
                     googletag.enableServices();
                     });
                     </script>
-        <div class="adss">
-        <div id="div-gpt-ad-160618295512-0" style="z-index: 1;">
+        <div class="adss" style="display: block !important;">
+        <div id="div-gpt-ad-160618295512-0" style="z-index: 1; display: block !important;">
         <script>
                     googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295512-0'); });
                     </script></div>
