@@ -520,19 +520,20 @@ function fixi() {
         });
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
   // Seleciona todos os elementos com a classe 'sua-classe'
-  var elementos = document.querySelectorAll(".meuElemento");
-  var divEle = elementos.querySelector('div:nth-child(1)');
+  var elementos = document.querySelectorAll('.meuElemento');
   // Adiciona a nova classe a cada elemento
-  
 setTimeout(function() {
     elementos.forEach(function(elemento) {
     elemento.style = "display: block !important";
-    divEle.style = "display: block !important";
+    
+  });
+  var divel = elementos.document.querySelectorAll('div:nth-child(1)');
+  divel.forEach(function(element) {
+    element.style = "display: block !important";
+    
   });
   }, 2000);
-});
 
     </script>
 </body>
