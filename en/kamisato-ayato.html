@@ -523,16 +523,12 @@ function fixi() {
         document.addEventListener("DOMContentLoaded", function() {
   // Seleciona o elemento pelo ID
   var meuElemento = document.querySelectorAll(".meuElemento");
-
+  if (meuElemento.length > 0) {
   // Adiciona a nova classe a cada elemento
-  meuElemento.forEach(function(meuElemento) {
-
-    setTimeout(function() {
-    // Altera o estilo para tornar o elemento visível
-    meuElemento.style.display = "block !important"; // ou "inline", "inline-block", etc., dependendo do tipo de elemento
-  }, 3000);
+  meuElemento.forEach(function(Elemento) {
+    meuElemento.style.display = "block"; 
   });
-  // Define um atraso de 3000 milissegundos (3 segundos)
+}
   
 });
     </script>
