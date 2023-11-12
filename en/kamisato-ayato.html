@@ -521,12 +521,10 @@ function fixi() {
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-  // Seleciona o elemento pelo ID
   var meuElemento = document.querySelectorAll(".meuElemento");
-  if (meuElemento.length > 0) {
-  // Adiciona a nova classe a cada elemento
+  if (meuElemento.style.display = "none !important") {
   meuElemento.forEach(function(Elemento) {
-    meuElemento.style.display = "block"; 
+    meuElemento.style.display = "block !important"; 
   });
 }
   
