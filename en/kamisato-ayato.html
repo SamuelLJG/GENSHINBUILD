@@ -532,9 +532,10 @@ setTimeout(function() {
 
     </script>
     <script>
-  var elementos2 = document.getElementById('google_ads_iframe_/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content3_11082023_0__container__');
+        var elementos2 = document.querySelectorAll('.meuElemento');
+  var child = elementos2.querySelector('div:nth-child(1)');
 setTimeout(function() {
-    elementos2.forEach(function(elemento) {
+    child.forEach(function(elemento) {
     elemento.style = "display: block !important";
     
   });
