@@ -47,7 +47,27 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
     <style>
-        @media only screen and (min-width:1017px){.horizontal2{display: none;}}
+        .adss{z-index: 1;}
+            .horizontal1, .horizontal2, .horizontal3{
+            display: flex; 
+            }
+            .horizontal1, .horizontal2, .horizontal3{
+            justify-content: center;
+            align-items: center;
+            background-color: var(--css);
+            border-radius: 3px;
+            }
+            .horizontal1, .horizontal2{
+            min-height: 90px;
+            }
+            .horizontal3{
+            min-height: 280px;
+            }
+            .horizontal1::before, .horizontal2::before, .horizontal3::before{
+            position: absolute;
+            content: 'Este site é suportado por anúncios.';
+            font-size: 15px; }
+           @media only screen and (min-width:1017px){.horizontal2{display: none;}}
     @media only screen and (max-width:1016px){.horizontal1{ display: none;} }
     @media only screen and (max-width:727px){.horizontal2{ display: none;} }
     @media only screen and (min-width:728px){.horizontal3{ display: none;} }
@@ -145,6 +165,7 @@
             <p class="owe">A melhor build para o Chongyun é a de Main DPS. Essa build é focada em melhor o dano dos Ataques Normais e Ataques Carregados do Chongyun, para que ele possa ficar a maior parte do tempo em campo lidando com a maioria dos inimigos sozinho.</p>
             <br>
             <div class="horizontal1">
+                
                 <script>
                 window.googletag = window.googletag || {cmd: []};
                 googletag.cmd.push(function() {
@@ -152,8 +173,8 @@
                 googletag.enableServices();
                 });
                 </script>
-            <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 90px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-                <div id='div-gpt-ad-1607239006546-0' style="z-index: 1;">
+            <div class="adss">
+                <div id='div-gpt-ad-1607239006546-0'>
                 <script>
                 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006546-0'); });
                 </script>
@@ -168,7 +189,8 @@
             googletag.enableServices();
             });
             </script>
-            <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 90px; "><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
+            
+            <div class="adss">
             <div id='div-gpt-ad-1606111128353-0'>
             <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128353-0'); });
@@ -185,7 +207,8 @@
             googletag.enableServices();
             });
             </script>
-            <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 280px; "><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
+            
+            <div class="adss">
             <div id='div-gpt-ad-160618295246-0'>
             <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295246-0'); });
@@ -227,7 +250,8 @@
                         <p class="agp agovery">Quando o jogador está em combate, a cada 4s aumenta o dano causado em 6-10% e 3-2% do Dano recebido. Este efeito pode ser acumulado até 5 vezes, não sendo redefinido após o personagem sair de campo, mas reduzirá 1 camada do efeito quando o personagem receber Dano.</p>
                     </div>
                 </div>
-            <br><div class="horizontal1">
+            <br>
+            <div class="horizontal1">
                 <script>
                 window.googletag = window.googletag || {cmd: []};
                 googletag.cmd.push(function() {
@@ -241,8 +265,8 @@
                 googletag.enableServices();
                 });
                 </script>
-            <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 90px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-            <div id='div-gpt-ad-1607239006533-0' style="z-index: 1;">
+            <div class="adss">
+            <div id='div-gpt-ad-1607239006533-0'>
                 <script>
                 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006533-0'); });
                 </script>
@@ -263,8 +287,8 @@
             googletag.enableServices();
             });
             </script>
-            <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 90px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-            <div id='div-gpt-ad-1606111128215-0' style="z-index: 1;">
+            <div class="adss">
+            <div id='div-gpt-ad-1606111128215-0'>
             <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128215-0'); });
             </script>
@@ -285,8 +309,8 @@
             googletag.enableServices();
             });
             </script>
-            <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 280px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-            <div id='div-gpt-ad-160618295512-0' style="z-index: 1;">
+            <div class="adss">
+            <div id='div-gpt-ad-160618295512-0'>
             <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295512-0'); });
             </script>
@@ -356,8 +380,8 @@
                     googletag.enableServices();
                     });
                     </script>
-                <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 90px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-                <div id='div-gpt-ad-1607239006446-0' style="z-index: 1;">
+                <div class="adss">
+                <div id='div-gpt-ad-1607239006446-0'>
                     <script>
                     googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006446-0'); });
                     </script>
@@ -377,8 +401,8 @@
                 googletag.enableServices();
                 });
                 </script>
-                <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 90px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-                <div id='div-gpt-ad-1606111128523-0' style="z-index: 1;">
+                <div class="adss">
+                <div id='div-gpt-ad-1606111128523-0'>
                 <script>
                 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128523-0'); });
                 </script>
@@ -399,8 +423,8 @@
                 googletag.enableServices();
                 });
                 </script>
-                <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--css); border-radius: 3px; min-height: 280px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-                <div id='div-gpt-ad-160618295656-0' style="z-index: 1;">
+                <div class="adss">
+                <div id='div-gpt-ad-160618295656-0'>
                 <script>
                 googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295656-0'); });
                 </script>

@@ -47,6 +47,27 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
     <style>
+        .adss{z-index: 1;}
+            .horizontal1, .horizontal2, .horizontal3{
+            display: flex; 
+            }
+            .horizontal1, .horizontal2, .horizontal3{
+            justify-content: center;
+            align-items: center;
+            background-color: var(--css);
+            border-radius: 3px;
+            }
+            .horizontal1, .horizontal2{
+            min-height: 90px;
+            }
+            .horizontal3{
+            min-height: 280px;
+            }
+            .horizontal1::before, .horizontal2::before, .horizontal3::before{
+            position: absolute;
+            content: 'Este site é suportado por anúncios.';
+            font-size: 15px; }
+           
     @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
     #sbar{border-radius:5px;height:42px;position:relative;background:var(--background);width:100%;max-width:340px}
             #search-input{display:block;font-weight:700;height:42px;padding-left:44px;outline:0;border:0;font-size:min(15px,3.3334vw);font-family:"DM Sans",sans-serif;width:98%}
@@ -176,6 +197,7 @@
         </div>
         <br>
         <div class="horizontal1">
+                
             <script>
             window.googletag = window.googletag || {cmd: []};
             googletag.cmd.push(function() {
@@ -183,8 +205,8 @@
             googletag.enableServices();
             });
             </script>
-        <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--background); border-radius: 3px; min-height: 90px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-            <div id='div-gpt-ad-1607239006546-0' style="z-index: 1;">
+        <div class="adss">
+            <div id='div-gpt-ad-1607239006546-0'>
             <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006546-0'); });
             </script>
@@ -199,7 +221,8 @@
         googletag.enableServices();
         });
         </script>
-        <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--background); border-radius: 3px; min-height: 90px; "><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
+        
+        <div class="adss">
         <div id='div-gpt-ad-1606111128353-0'>
         <script>
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128353-0'); });
@@ -216,7 +239,8 @@
         googletag.enableServices();
         });
         </script>
-        <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--background); border-radius: 3px; min-height: 280px; "><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
+        
+        <div class="adss">
         <div id='div-gpt-ad-160618295246-0'>
         <script>
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295246-0'); });
@@ -660,8 +684,8 @@
             googletag.enableServices();
             });
             </script>
-        <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--background); border-radius: 3px; min-height: 90px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-        <div id='div-gpt-ad-1607239006533-0' style="z-index: 1;">
+        <div class="adss">
+        <div id='div-gpt-ad-1607239006533-0'>
             <script>
             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006533-0'); });
             </script>
@@ -682,8 +706,8 @@
         googletag.enableServices();
         });
         </script>
-        <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--background); border-radius: 3px; min-height: 90px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-        <div id='div-gpt-ad-1606111128215-0' style="z-index: 1;">
+        <div class="adss">
+        <div id='div-gpt-ad-1606111128215-0'>
         <script>
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128215-0'); });
         </script>
@@ -704,8 +728,8 @@
         googletag.enableServices();
         });
         </script>
-        <div class="adss" style="display: flex; justify-content: center; align-items: center; background-color: var(--background); border-radius: 3px; min-height: 280px;"><div style="font-size: 15px; position: absolute;">Este site é suportado por anúncios.</div>
-        <div id='div-gpt-ad-160618295512-0' style="z-index: 1;">
+        <div class="adss">
+        <div id='div-gpt-ad-160618295512-0'>
         <script>
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295512-0'); });
         </script>
