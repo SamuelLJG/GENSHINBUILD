@@ -169,3 +169,70 @@
             </div>
             </div>
         </div>
+
+        #Content4
+
+        <div class="horizontal1">
+            <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content4_11082023', [[970, 90]], 'div-gpt-ad-1607239006443-0').addService(googletag.pubads());
+        googletag.pubads().enableLazyLoad({
+                    fetchMarginPercent: 20,
+                    renderMarginPercent: 10,
+                    mobileScaling: 2.0
+                });
+            googletag.enableServices();
+            });
+            </script>
+        <div class="adss">
+        <div id='div-gpt-ad-1607239006443-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006443-0'); });
+            </script>
+            </div>
+        </div>
+        </div>
+        <div class="horizontal2">
+        <script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+        googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content4_11082023', [[728, 90]], 'div-gpt-ad-1606111128526-0').addService(googletag.pubads());
+        googletag.pubads().enableLazyLoad({
+                    fetchMarginPercent: 20,
+                    renderMarginPercent: 10,
+                    mobileScaling: 2.0
+                });
+        googletag.enableServices();
+        });
+        </script>
+        <div class="adss">
+        <div id='div-gpt-ad-1606111128526-0'>
+        <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128526-0'); });
+        </script>
+        </div>
+        </div>  
+        </div>
+        <div class="horizontal3">
+        <script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+        googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content4_11082023', [[250, 250], [336, 280], [300, 250]],
+        'div-gpt-ad-160618295653-0').addService(googletag.pubads());
+        googletag.pubads().enableLazyLoad({
+                    fetchMarginPercent: 20,
+                    renderMarginPercent: 10,
+                    mobileScaling: 2.0
+                });
+        googletag.enableServices();
+        });
+        </script>
+        <div class="adss">
+        <div id='div-gpt-ad-160618295653-0'>
+        <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295653-0'); });
+        </script>
+        </div>
+        </div>
+        </div>
