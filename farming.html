@@ -2,15 +2,6 @@
 <html lang="pt-br">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMW5Q2STCE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZMW5Q2STCE');
-</script>
     <meta charset="UTF-8">
     <meta name="description" content="Saiba os domínios disponíveis hoje em Genshin Impact.">
     <meta name="robots" content="max-image-preview:large">
@@ -66,65 +57,90 @@
             position: absolute;
             content: 'Este site é suportado por anúncios.';
             font-size:min(15px,4vw); }
-        @media only screen and (min-width:1017px){.horizontal2{display: none;}}
-    @media only screen and (max-width:1017px){.horizontal1{ display: none;} }
+.displayflex6{
+    display: grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    justify-content: space-between;text-align: center;
+    gap: 10px;
     
-        .rollx img{width: 60px; height: 60px;}.rollx h3{opacity: 0.95;font-size: min(13.5px,3.1vw);letter-spacing: 1px;
-    font-weight: 500;} .rollx a:hover {opacity: 0.5; transition: 0.2s;}
-        @media only screen and (min-width:1017px) {#main4{ max-width: 1050px;}}
-@media only screen and (max-width:1090px) and (min-width:1017px){ #main4{margin: 0px 20px;} #header-content{margin-left: 20px; margin-right: 20px;} }
+}h2{
+    font-size: min(17.5px,4.4vw); 
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+}
 
+.rollx{ flex-wrap: wrap; display: grid; 
+    overflow-x: visible;  grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px 4px; }
+        @media only screen and (min-width:1017px){.horizontal2{display: none;}}
+    @media only screen and (max-width:1016px){.horizontal1{ display: none;}
+    .displayflex6{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    
+} 
+}
+@media only screen and (max-width:714px){
+    .displayflex6{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+.rollx{ grid-template-columns:repeat(4,minmax(0,1fr)); gap: 3px; }
+}
+@media only screen and (max-width:714px){
+    .rollx{ grid-template-columns:repeat(3,minmax(0,1fr)); gap: 10px 0px; 
+}
+}
+@media only screen and (max-width:570px){
+    .rollx{  gap: .5vw .5vw; 
+}
+}
+        .rollx img{width: 60px; height: 60px;} .rollx a:hover {opacity: 0.5; transition: 0.2s;}
+        @media only screen and (min-width:1018px) {#main4{ max-width: 1050px;}}
+@media only screen and (max-width:1090px) and (min-width:1018px){ #main4{margin: 0px 20px;} #header-content{margin-left: 20px; margin-right: 20px;} }
+.bg5{
+    max-width: 330px;
+    height: 100%;
+}
+.bg5 p{
+    font-size: min(14px,3.4vw);letter-spacing: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}#main4 .bg5 {
+    margin-bottom: 0px;
+    
+}.rollx a{
+    position: relative;
+    margin: 0;
+}
+.rollx a img{
+    height: auto;
+    width: 11vw;
+    max-width: 60px;
+}
+.rollx a img:last-of-type{
+    position: absolute;
+    top: -3px;
+    right: 3%;
+    width: 5vw;
+    max-width: 27px;
+    border-radius: 50%;
+    overflow-x: visible;
+    background-color: #191919;
+    padding: 3px;
+    box-shadow: var(--box);
+}
     </style>
 </head>
 
 <body>
-    <div class="vertical">
-        <script>
-            window.googletag = window.googletag || {cmd: []};
-            googletag.cmd.push(function() {
-            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_lateral_11082023', [[160, 600]], 'div-gpt-ad-1606154628446-0').addService(googletag.pubads());
-            googletag.enableServices();
-            });
-            </script>
-        <div id="Vert" style="display: flex; justify-content: center; left: 10px;">
-            <div id='div-gpt-ad-1606154628446-0'>
-            <script>
-            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606154628446-0'); });
-            </script>
-            </div>
-        </div>
-        <script>
-            window.googletag = window.googletag || {cmd: []};
-            googletag.cmd.push(function() {
-            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_lateral_11082023', [[160, 600]], 'div-gpt-ad-16068535728446-0').addService(googletag.pubads());
-            googletag.enableServices();
-            });
-            </script>
-        <div id="Vert2" style="display: flex; justify-content: center; right: 10px;">
-            <div id='div-gpt-ad-16068535728446-0'>
-            <script>
-            googletag.cmd.push(function() { googletag.display('div-gpt-ad-16068535728446-0'); });
-            </script>
-            </div>
-        </div>
-    </div>
     <div data-include-html="header.html"></div>
         <br>
         <main id="main4">
         
         <br>
-            <h1 style="text-align:center;">Materias de Farming de Hoje</h1>
+            <h1 style="text-align:center;">Genshin Impact Materiais de Farming</h1>
 
-        <div style="color: var(--dest); font-weight: normal; text-align: center;">
-            [
-                <div id="Domingo"> Domingo</div>
-                <div id="SegundaM"> Segunda-Feira</div>
-                <div id="TerçaM"> Terça-Feira</div>
-                <div id="QuartaM"> Quarta-Feira</div>
-                <div id="Quinta"> Quinta-Feira</div>
-                <div id="Sexta"> Sexta-Feira</div>
-                <div id="Sábado"> Sábado</div>
-                   ]</div>
         
         <br>
         <div class="horizontal1">
@@ -152,394 +168,463 @@
             (adsbygoogle = window.adsbygoogle || []).push({});
        </script>
         </div>
+        <br>
+        <div style=" font-size: min(20px,4.4vw); text-align: center;">
+            Talentos de Hoje (
+                <div id="Domingo"> Domingo</div>
+                <div id="SegundaM"> Segunda-Feira</div>
+                <div id="TerçaM"> Terça-Feira</div>
+                <div id="QuartaM"> Quarta-Feira</div>
+                <div id="Quinta"> Quinta-Feira</div>
+                <div id="Sexta"> Sexta</div>
+                <div id="Sábado"> Sábado</div> )&nbsp;<i class="fa-solid fa-wheat-awn" aria-hidden="true"></i>
+                   </div>
 <br>
        
         
-        <div class="displayflex6">
-        <div class="Segunda">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Ensinamentos_de_Liberdade.webp" alt="Ensinamentos de Liberdade"></div>
-                <br>
-                <h2>Ensinamentos de "Liberdade"</h2>
-                
-                Segunda-Feira, Quinta-Feira, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/aloy"><img src="https://genshinbuild.com/images/Characters/Aloy_Icon.webp" alt="Aloy">
-                        <h3>Aloy</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/amber"><img src="https://genshinbuild.com/images/Characters/Amber_Icon.webp" alt="Amber">
-                        <h3>Amber</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/barbara"><img src="https://genshinbuild.com/images/Characters/Barbara_Icon.webp" alt="Barbara">
-                        <h3>Barbara</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/diona"><img src="https://genshinbuild.com/images/Characters/Diona_Icon.webp" alt="Diona">
-                        <h3>Diona</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/klee"><img src="https://genshinbuild.com/images/Characters/Klee_Icon.webp" alt="Klee">
-                        <h3>Klee</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/sucrose"><img src="https://genshinbuild.com/images/Characters/Sucrose_Icon.webp" alt="Sucrose">
-                        <h3>Sucrose</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/tartaglia"><img src="https://genshinbuild.com/images/Characters/Tartaglia_Icon.webp" alt="Tartaglia">
-                        <h3>Childe</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-anemo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Anemo">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-geo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Geo">
-                        <h3>Viajante</h3>
-                    </a>
+        <div style="display: grid; flex-wrap: wrap; gap: 10px;">
+            <div class="displayflex6">
+            <div class="Segunda">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Ensinamentos_de_Liberdade.webp" alt="Ensinamentos de Liberdade"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos de Liberdade</h2>
+            
+                    <p>Segunda, Quinta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/klee"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Klee_Icon.webp" alt="Klee">
+                            <!--<h3>Klee</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/tartaglia"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Tartaglia_Icon.webp" alt="Tartaglia">
+                            <!--<h3>Childe</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-anemo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Anemo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-geo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Geo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/amber"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Amber_Icon.webp" alt="Amber">
+                            <!--<h3>Amber</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/barbara"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Barbara_Icon.webp" alt="Barbara">
+                            <!--<h3>Barbara</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/diona"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Diona_Icon.webp" alt="Diona">
+                            <!--<h3>Diona</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/sucrose"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Sucrose_Icon.webp" alt="Sucrose">
+                            <!--<h3>Sucrose</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/aloy"><img style="background-image:linear-gradient(135deg,#aa3ba1,#d897d5); border-radius: 5px;" src="https://genshinbuild.com/images/Characters/Aloy_Icon.webp" alt="Aloy">
+                            <!--<h3>Aloy</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Segunda">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Prosperity.webp" alt="Ensinamentos de Prosperidade"></div>
-                <br>
-                <h2>Ensinamentos de Prosperidade</h2>
-                
-                Segunda-Feira, Quinta-Feira, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/keqing"><img src="https://genshinbuild.com/images/Characters/Keqing_Icon.webp" alt="Keqing">
-                        <h3>Keqing</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/ningguang"><img src="https://genshinbuild.com/images/Characters/Ningguang_Icon.webp" alt="Ningguang">
-                        <h3>Ningguang</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/qiqi"><img src="https://genshinbuild.com/images/Characters/Qiqi_Icon.webp" alt="Qiqi">
-                        <h3>Qiqi</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/shenhe"><img src="https://genshinbuild.com/images/Characters/Shenhe_Icon.webp" alt="Shenhe">
-                        <h3>Shenhe</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-geo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Geo">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/xiao"><img src="https://genshinbuild.com/images/Characters/Xiao_Icon.webp" alt="Xiao">
-                        <h3>Xiao</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/yelan"><img src="https://genshinbuild.com/images/Characters/Yelan_Icon.webp" alt="Yelan">
-                        <h3>Yelan</h3>
-                    </a>
+            <div class="Segunda">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Prosperity.webp" alt="Ensinamentos de Prosperidade"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos de Prosperidade</h2>
+            
+                    <p>Segunda, Quinta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/keqing"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Keqing_Icon.webp" alt="Keqing">
+                            <!--<h3>Keqing</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/qiqi"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Qiqi_Icon.webp" alt="Qiqi">
+                            <!--<h3>Qiqi</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/shenhe"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Shenhe_Icon.webp" alt="Shenhe">
+                            <!--<h3>Shenhe</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/xiao"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Xiao_Icon.webp" alt="Xiao">
+                            <!--<h3>Xiao</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/yelan"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Yelan_Icon.webp" alt="Yelan">
+                            <!--<h3>Yelan</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-geo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Geo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/ningguang"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Ningguang_Icon.webp" alt="Ningguang">
+                            <!--<h3>Ningguang</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Segunda">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Light.webp" alt="Ensinamentos do Mundo"></div>
-                <br>
-                <h2>Ensinamentos do Mundo</h2>
-                
-                Segunda-Feira, Quinta-Feira, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/sangonomiya-kokomi"><img src="https://genshinbuild.com/images/Characters/Sangonomiya_Kokomi_Icon.webp" alt="Sangonomiya Kokomi">
-                        <h3>Kokomi</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/shikanoin-heizou"><img src="https://genshinbuild.com/images/Characters/Shikanoin_Heizou_Icon.webp" alt="Shikanoin Heizou">
-                        <h3>Heizou</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/thoma"><img src="https://genshinbuild.com/images/Characters/Thoma_Icon.webp" alt="Thoma">
-                        <h3>Thoma</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-electro"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Electro">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/yoimiya"><img src="https://genshinbuild.com/images/Characters/Yoimiya_Icon.webp" alt="Yoimiya">
-                        <h3>Yoimiya</h3>
-                    </a>
+            <div class="Segunda">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Transience.webp" alt="Ensinamentos do Mundo"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos do Mundo</h2>
+            
+                    <p>Segunda, Quinta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/sangonomiya-kokomi"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Sangonomiya_Kokomi_Icon.webp" alt="Sangonomiya Kokomi">
+                            <!--<h3>Kokomi</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/yoimiya"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Yoimiya_Icon.webp" alt="Yoimiya">
+                            <!--<h3>Yoimiya</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-electro"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Electro">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/shikanoin-heizou"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Shikanoin_Heizou_Icon.webp" alt="Shikanoin Heizou">
+                            <!--<h3>Heizou</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/thoma"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Thoma_Icon.webp" alt="Thoma">
+                            <!--<h3>Thoma</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Segunda">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Admonition.webp" alt="Ensinamentos de admoestações"></div>
-                <br>
-                <h2>Ensinamentos de admoestações</h2>
-                
-                Segunda-Feira, Quinta-Feira, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/candace"><img src="https://genshinbuild.com/images/Characters/Candace_Icon.webp" alt="Candace">
-                        <h3>Candace</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/cyno"><img src="https://genshinbuild.com/images/Characters/Cyno_Icon.webp" alt="Cyno">
-                        <h3>Cyno</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/faruzan"><img src="https://genshinbuild.com/images/Characters/Faruzan_Icon.webp" alt="Faruzan">
-                        <h3>Faruzan</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/tighnari"><img src="https://genshinbuild.com/images/Characters/Tighnari_Icon.webp" alt="Tighnari">
-                        <h3>Tighnari</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-dendro"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Dendro">
-                        <h3>Viajante</h3>
-                    </a>
+            <div class="Segunda">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Admonition.webp" alt="Ensinamentos de admoestações"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos de admoestações</h2>
+            
+                    <p>Segunda, Quinta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/cyno"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Cyno_Icon.webp" alt="Cyno">
+                            <!--<h3>Cyno</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/tighnari"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Tighnari_Icon.webp" alt="Tighnari">
+                            <!--<h3>Tighnari</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Dendro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-dendro"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Dendro">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Dendro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/candace"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Candace_Icon.webp" alt="Candace">
+                            <!--<h3>Candace</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/faruzan"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Faruzan_Icon.webp" alt="Faruzan">
+                            <!--<h3>Faruzan</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="displayflex6">
-        <div class="Terça">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Diligence.webp" alt="Ensinamentos de Esforço"></div>
-                <br>
-                <h2>Ensinamentos de Esforço</h2>
-                
-                Terça-Feira, Sexta-Feira, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/chongyun"><img src="https://genshinbuild.com/images/Characters/Chongyun_Icon.webp" alt="Chongyun">
-                        <h3>Chongyun</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/ganyu"><img src="https://genshinbuild.com/images/Characters/Ganyu_Icon.webp" alt="Ganyu">
-                        <h3>Ganyu</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/hu-tao"><img src="https://genshinbuild.com/images/Characters/Hu_Tao_Icon.webp" alt="Hu Tao">
-                        <h3>Hu Tao</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/kaedehara-kazuha"><img src="https://genshinbuild.com/images/Characters/Kaedehara_Kazuha_Icon.webp" alt="Kaedehara Kazuha">
-                        <h3>Kazuha</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-geo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Geo">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/xiangling"><img src="https://genshinbuild.com/images/Characters/Xiangling_Icon.webp" alt="Xiangling">
-                        <h3>Xiangling</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/yun-jin"><img src="https://genshinbuild.com/images/Characters/Yun_Jin_Icon.webp" alt="Yun Jin">
-                        <h3>Yun Jin</h3>
-                    </a>
+            <div class="Segunda">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Equity.webp" alt="Ensinamentos da Igualdade"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos da Igualdade</h2>
+            
+                    <p>Segunda, Quinta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/lyney"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Lyney_Icon.webp" alt="Lyney">
+                            <!--<h3>Lyney</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/neuvillette"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Neuvillette_Icon.webp" alt="Neuvillette">
+                            <!--<h3>Neuvillette</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Terça">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Elegance.webp" alt="Ensinamentos de Cultura"></div>
-                <br>
-                <h2>Ensinamentos de Cultura</h2>
-                
-                Terça-Feira, Sexta-Feira, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/arataki-itto"><img src="https://genshinbuild.com/images/Characters/Arataki_Itto_Icon.webp" alt="Arataki Itto">
-                        <h3>Itto</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/kamisato-ayaka"><img src="https://genshinbuild.com/images/Characters/Kamisato_Ayaka_Icon.webp" alt="Kamisato Ayaka">
-                        <h3>Ayaka</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/kamisato-ayato"><img src="https://genshinbuild.com/images/Characters/Kamisato_Ayato_Icon.webp" alt="Kamisato Ayato">
-                        <h3>Ayato</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/kujou-sara"><img src="https://genshinbuild.com/images/Characters/Kujou_Sara_Icon.webp" alt="Kujou Sara">
-                        <h3>Sara</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/kuki-shinobu"><img src="https://genshinbuild.com/images/Characters/Kuki_Shinobu_Icon.webp" alt="Kuki Shinobu">
-                        <h3>Shinobu</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-electro"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Electro">
-                        <h3>Viajante</h3>
-                    </a>
+            <div class="Terça">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Diligence.webp" alt="Ensinamentos de Esforço"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos de Esforço</h2>
+            
+                    <p>Terça, Sexta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/ganyu"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Ganyu_Icon.webp" alt="Ganyu">
+                            <!--<h3>Ganyu</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/hu-tao"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Hu_Tao_Icon.webp" alt="Hu Tao">
+                            <!--<h3>Hu Tao</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/kaedehara-kazuha"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Kaedehara_Kazuha_Icon.webp" alt="Kaedehara Kazuha">
+                            <!--<h3>Kazuha</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-geo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Geo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/chongyun"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Chongyun_Icon.webp" alt="Chongyun">
+                            <!--<h3>Chongyun</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/xiangling"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Xiangling_Icon.webp" alt="Xiangling">
+                            <!--<h3>Xiangling</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/yun-jin"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Yun_Jin_Icon.webp" alt="Yun Jin">
+                            <!--<h3>Yun Jin</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Terça">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Resistance.webp" alt="Ensinamentos de Resistência"></div>
-                <br>
-                <h2>Ensinamentos de Resistência</h2>
-                
-                Terça-Feira, Sexta-Feira, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/bennett"><img src="https://genshinbuild.com/images/Characters/Bennett_Icon.webp" alt="Bennett">
-                        <h3>Bennett</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/diluc"><img src="https://genshinbuild.com/images/Characters/Diluc_Icon.webp" alt="Diluc">
-                        <h3>Diluc</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/eula"><img src="https://genshinbuild.com/images/Characters/Eula_Icon.webp" alt="Eula">
-                        <h3>Eula</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/jean"><img src="https://genshinbuild.com/images/Characters/Jean_Icon.webp" alt="Jean">
-                        <h3>Jean</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/mona"><img src="https://genshinbuild.com/images/Characters/Mona_Icon.webp" alt="Mona">
-                        <h3>Mona</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/noelle"><img src="https://genshinbuild.com/images/Characters/Noelle_Icon.webp" alt="Noelle">
-                        <h3>Noelle</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/razor"><img src="https://genshinbuild.com/images/Characters/Razor_Icon.webp" alt="Razor">
-                        <h3>Razor</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-geo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Geo">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-anemo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Anemo">
-                        <h3>Viajante</h3>
-                    </a>
+            <div class="Terça">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Elegance.webp" alt="Ensinamentos de Cultura"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos de Cultura</h2>
+            
+                    <p>Terça, Sexta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/arataki-itto"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Arataki_Itto_Icon.webp" alt="Arataki Itto">
+                            <!--<h3>Itto</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/kamisato-ayaka"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Kamisato_Ayaka_Icon.webp" alt="Kamisato Ayaka">
+                            <!--<h3>Ayaka</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/kamisato-ayato"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Kamisato_Ayato_Icon.webp" alt="Kamisato Ayato">
+                            <!--<h3>Ayato</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-electro"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Electro">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/kujou-sara"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Kujou_Sara_Icon.webp" alt="Kujou Sara">
+                            <!--<h3>Sara</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/kuki-shinobu"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Kuki_Shinobu_Icon.webp" alt="Kuki Shinobu">
+                            <!--<h3>Shinobu</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Terça">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Ingenuity.webp" alt="Ensinamentos de Engenhosidade"></div>
-                <br>
-                <h2>Ensinamentos da Engenhosidade</h2>
-                
-                Terça, Sexta-Feira, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/dori"><img src="https://genshinbuild.com/images/Characters/Dori_Icon.webp" alt="Dori">
-                        <h3>Dori</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/layla"><img src="https://genshinbuild.com/images/Characters/Layla_Icon.webp" alt="Layla">
-                        <h3>Layla</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/nahida"><img src="https://genshinbuild.com/images/Characters/Nahida_Icon.webp" alt="Nahida">
-                        <h3>Nahida</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-dendro"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Dendro">
-                        <h3>Viajante</h3>
-                    </a>
+            <div class="Terça">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Resistance.webp" alt="Ensinamentos de Resistência"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos de Resistência</h2>
+            
+                    <p>Terça, Sexta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/diluc"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Diluc_Icon.webp" alt="Diluc">
+                            <!--<h3>Diluc</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/eula"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Eula_Icon.webp" alt="Eula">
+                            <!--<h3>Eula</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/jean"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Jean_Icon.webp" alt="Jean">
+                            <!--<h3>Jean</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/mona"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Mona_Icon.webp" alt="Mona">
+                            <!--<h3>Mona</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-geo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Geo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-anemo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Anemo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/bennett"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Bennett_Icon.webp" alt="Bennett">
+                            <!--<h3>Bennett</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/noelle"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Noelle_Icon.webp" alt="Noelle">
+                            <!--<h3>Noelle</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/razor"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Razor_Icon.webp" alt="Razor">
+                            <!--<h3>Razor</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="displayflex6">
-        <div class="Quarta">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Ballad.webp" alt="Ensinamentos de Poemas"></div>
-                <br>
-                <h2>Ensinamentos de Poemas</h2>
-                
-                Quarta-Feira, Sábado, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/albedo"><img src="https://genshinbuild.com/images/Characters/Albedo_Icon.webp" alt="Albedo">
-                        <h3>Albedo</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/fischl"><img src="https://genshinbuild.com/images/Characters/Fischl_Icon.webp" alt="Fischl">
-                        <h3>Fischl</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/lisa"><img src="https://genshinbuild.com/images/Characters/Lisa_Icon.webp" alt="Lisa">
-                        <h3>Lisa</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/rosaria"><img src="https://genshinbuild.com/images/Characters/Rosaria_Icon.webp" alt="Rosaria">
-                        <h3>Rosaria</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-geo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Geo">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-anemo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Anemo">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/venti"><img src="https://genshinbuild.com/images/Characters/Venti_Icon.webp" alt="Venti">
-                        <h3>Venti</h3>
-                    </a>
+            <div class="Terça">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Ingenuity.webp" alt="Ensinamentos de Engenhosidade"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos da Engenhosidade</h2>
+            
+                    <p>Terça, Sexta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/nahida"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Nahida_Icon.webp" alt="Nahida">
+                            <!--<h3>Nahida</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Dendro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-dendro"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Dendro">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Dendro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/dori"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Dori_Icon.webp" alt="Dori">
+                            <!--<h3>Dori</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/layla"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Layla_Icon.webp" alt="Layla">
+                            <!--<h3>Layla</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Quarta">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Gold.webp" alt="Ensinamentos de Ouro"></div>
-                <br>
-                
-                <h2>Ensinamentos de Ouro</h2>
-                Quarta-Feira, Sábado, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/beidou"><img src="https://genshinbuild.com/images/Characters/Beidou_Icon.webp" alt="Beidou">
-                        <h3>Beidou</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-geo"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Geo">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/xingqiu"><img src="https://genshinbuild.com/images/Characters/Xingqiu_Icon.webp" alt="Xingqiu">
-                        <h3>Xingqiu</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/xinyan"><img src="https://genshinbuild.com/images/Characters/Xinyan_Icon.webp" alt="Xinya">
-                        <h3>Xinyan</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/yanfei"><img src="https://genshinbuild.com/images/Characters/Yanfei_Icon.webp" alt="Yanfei">
-                        <h3>Yanfei</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/zhongli"><img src="https://genshinbuild.com/images/Characters/Zhongli_Icon.webp" alt="Zhongli">
-                        <h3>Zhongli</h3>
-                    </a>
+            <div class="Terça">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Justice.webp" alt="Ensinamentos da Justiça"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos da Justiça</h2>
+            
+                    <p>Terça, Sexta, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/furina"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Furina_Icon.webp" alt="Furina">
+                            <!--<h3>Furina</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/charlotte"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Charlotte_Icon.webp" alt="Charlotte">
+                            <!--<h3>Charlotte</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/freminet"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Freminet_Icon.webp" alt="Freminet">
+                            <!--<h3>Freminet</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Quarta">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Light.webp" alt="Ensinamentos da Luz Celeste"></div>
-                <br>
-                <h2>Ensinamentos da Luz Celeste</h2>
-                
-                Quarta-Feira, Sábado, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/gorou"><img src="https://genshinbuild.com/images/Characters/Gorou_Icon.webp" alt="Gorou">
-                        <h3>Gorou</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/raiden-shogun"><img src="https://genshinbuild.com/images/Characters/Raiden_Shogun_Icon.webp" alt="Raiden Shogun">
-                        <h3>Raiden</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/sayu"><img src="https://genshinbuild.com/images/Characters/Sayu_Icon.webp" alt="Sayu">
-                        <h3>Sayu</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-electro"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Electro">
-                        <h3>Viajante</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/yae-miko"><img src="https://genshinbuild.com/images/Characters/Yae_Miko_Icon.webp" alt="Yae Miko">
-                        <h3>Yae Miko</h3>
-                    </a>
+            <div class="Quarta">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Ballad.webp" alt="Ensinamentos de Poemas"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos de Poemas</h2>
+            
+                    <p>Quarta, Sábado, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/albedo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Albedo_Icon.webp" alt="Albedo">
+                            <!--<h3>Albedo</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/venti"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Venti_Icon.webp" alt="Venti">
+                            <!--<h3>Venti</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-geo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Geo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-anemo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Anemo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/lisa"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Lisa_Icon.webp" alt="Lisa">
+                            <!--<h3>Lisa</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/fischl"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Fischl_Icon.webp" alt="Fischl">
+                            <!--<h3>Fischl</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/rosaria"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Rosaria_Icon.webp" alt="Rosaria">
+                            <!--<h3>Rosaria</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Quarta">
-            <div class="bg5">
-                <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Praxis.webp" alt="Ensinamentos de Práxis"></div>
-                <br>
-                <h2>Ensinamentos de Práxis</h2>
-                
-                Quarta-Feira, Sábado, Domingo
-                <br>
-                <br>
-                <div class="rollx">
-                    <a href="https://genshinbuild.com/collei"><img src="https://genshinbuild.com/images/Characters/Collei_Icon.webp" alt="Collei">
-                        <h3>Collei</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/nilou"><img src="https://genshinbuild.com/images/Characters/Nilou_Icon.webp" alt="Nilou">
-                        <h3>Nilou</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/wanderer"><img src="https://genshinbuild.com/images/Characters/Wanderer_Icon.webp" alt="Andarilho">
-                        <h3>Andarilho</h3>
-                    </a>
-                    <a href="https://genshinbuild.com/traveler-dendro"><img src="https://genshinbuild.com/images/Characters/Traveler_Icon.webp" alt="Traveler Dendro">
-                        <h3>Viajante</h3>
-                    </a>
+            <div class="Quarta">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Gold.webp" alt="Ensinamentos de Ouro"></div>
+                    <br>
+            
+                    <h2 style="color: var(--pt);">Ensinamentos de Ouro</h2>
+                    <p>Quarta, Sábado, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/zhongli"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Zhongli_Icon.webp" alt="Zhongli">
+                            <!--<h3>Zhongli</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-geo"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Geo">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/beidou"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Beidou_Icon.webp" alt="Beidou">
+                            <!--<h3>Beidou</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/xingqiu"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Xingqiu_Icon.webp" alt="Xingqiu">
+                            <!--<h3>Xingqiu</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/xinyan"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Xinyan_Icon.webp" alt="Xinya">
+                            <!--<h3>Xinyan</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/yanfei"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Yanfei_Icon.webp" alt="Yanfei">
+                            <!--<h3>Yanfei</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Pyro.webp" alt=""></a>
+                    </div>
                 </div>
             </div>
+            <div class="Quarta">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Light.webp" alt="Ensinamentos da Luz Celeste"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos da Luz Celeste</h2>
+            
+                    <p>Quarta, Sábado, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/raiden-shogun"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Raiden_Shogun_Icon.webp" alt="Raiden Shogun">
+                            <!--<h3>Raiden</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/sayu"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Sayu_Icon.webp" alt="Sayu">
+                            <!--<h3>Sayu</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/yae-miko"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Yae_Miko_Icon.webp" alt="Yae Miko">
+                            <!--<h3>Yae Miko</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-electro"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Electro">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Electro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/gorou"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Gorou_Icon.webp" alt="Gorou">
+                            <!--<h3>Gorou</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Geo.webp" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="Quarta">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Praxis.webp" alt="Ensinamentos de Práxis"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos de Práxis</h2>
+            
+                    <p>Quarta, Sábado, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/nilou"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Nilou_Icon.webp" alt="Nilou">
+                            <!--<h3>Nilou</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Hydro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/wanderer"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Wanderer_Icon.webp" alt="Andarilho">
+                            <!--<h3>Andarilho</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/traveler-dendro"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Traveler Dendro">
+                            <!--<h3>Viajante</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Dendro.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/collei"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Collei_Icon.webp" alt="Collei">
+                            <!--<h3>Collei</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Dendro.webp" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="Quarta">
+                <div class="bg5">
+                    <div class="fd"><img src="https://genshinbuild.com/images/AT/Item_Teachings_of_Order.webp" alt="Ensinamentos da Ordem"></div>
+                    <br>
+                    <h2 style="color: var(--pt);">Ensinamentos da Ordem</h2>
+            
+                    <p>Quarta, Sábado, Domingo</p>
+                    <br>
+            
+                    <div class="rollx">
+                        <a href="https://genshinbuild.com/wriothesley"><img class="bg_golden" src="https://genshinbuild.com/images/Characters/Wriothesley_Icon.webp" alt="Wriothesley">
+                            <!--<h3>Wriothesley</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt=""></a>
+                        <a href="https://genshinbuild.com/lynette"><img class="bg_purple" src="https://genshinbuild.com/images/Characters/Lynette_Icon.webp" alt="Lynette">
+                            <!--<h3>Lynette</h3>-->
+                        <img src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt=""></a>
+                    </div>
+                </div>
+            </div>
+                </div>
         </div>
-    </div>
-    
+    <br>
     <div class="horizontal1">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
      crossorigin="anonymous"></script>
