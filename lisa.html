@@ -72,12 +72,7 @@
            @media only screen and (min-width:1017px){.horizontal2{display: none;}}
     @media only screen and (max-width:1016px){.horizontal1{ display: none;} }
     
-    .fixx{
-        position: fixed;
-    }
-    #Vert,#Vert2{position: absolute;  top: 111px;}
-    .vertical{display: block;}
-        @media only screen and (max-width:1359px){.vertical{display: none;} }
+    
 @media only screen and (min-width: 729px){.agbox {width: 48.4%;}}
 @media only screen and (min-width:1017px) {#main2{ max-width: 1050px;}}
 @media only screen and (max-width:1090px) and (min-width:1017px){ #main2{margin: 0px 20px;} #header-content{margin-left: 20px; margin-right: 20px;} }
@@ -98,36 +93,7 @@
 </head>
 
 <body id="electro">
-    <div class="vertical">
-        <script>
-            window.googletag = window.googletag || {cmd: []};
-            googletag.cmd.push(function() {
-            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_lateral_11082023', [[160, 600]], 'div-gpt-ad-1606154628446-0').addService(googletag.pubads());
-            googletag.enableServices();
-            });
-            </script>
-        <div id="Vert" style="display: flex; justify-content: center; left: 10px;">
-            <div id='div-gpt-ad-1606154628446-0'>
-            <script>
-            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606154628446-0'); });
-            </script>
-            </div>
-        </div>
-        <script>
-            window.googletag = window.googletag || {cmd: []};
-            googletag.cmd.push(function() {
-            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_lateral_11082023', [[160, 600]], 'div-gpt-ad-16068535728446-0').addService(googletag.pubads());
-            googletag.enableServices();
-            });
-            </script>
-        <div id="Vert2" style="display: flex; justify-content: center; right: 10px;">
-            <div id='div-gpt-ad-16068535728446-0'>
-            <script>
-            googletag.cmd.push(function() { googletag.display('div-gpt-ad-16068535728446-0'); });
-            </script>
-            </div>
-        </div>
-    </div>
+    
     <div data-include-html="header.html"></div>
     <br>
     <main id="main2">
@@ -468,21 +434,7 @@ Ao acertar, inflige <b>Dano Electro</b> e aplica um acúmulo do efeito Condutor 
     <script>
         includeHTML();
         function includeHTML(){for(var t,e,n,i=document.getElementsByTagName("*"),s=0;s<i.length;s++)if(e=(t=i[s]).getAttribute("data-include-html"))return(n=new XMLHttpRequest).onreadystatechange=function(){4==this.readyState&&(200==this.status&&(t.innerHTML=this.responseText),404==this.status&&(t.innerHTML="Page not found."),t.removeAttribute("data-include-html"),includeHTML())},n.open("GET",e,!0),void n.send()}
-            window.onscroll = function() {fixi()};
-
-function fixi() {
-  if (document.documentElement.scrollTop > 111) {
-    document.getElementById("Vert").style.position = "fixed";
-    document.getElementById("Vert").style.top = "0";
-    document.getElementById("Vert2").style.position = "fixed";
-    document.getElementById("Vert2").style.top = "0";
-  } else {
-    document.getElementById("Vert").style.position = "";
-    document.getElementById("Vert").style.top = "";
-    document.getElementById("Vert2").style.position = "";
-    document.getElementById("Vert2").style.top = "";
-  }
-}
+           
     </script>
     <script src="JavaScript/darkmode.js"></script>
     <script src="JavaScript/Menu.js"></script>
