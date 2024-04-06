@@ -107,6 +107,19 @@
     .rollx{  gap: .5vw .5vw; 
 }
 }
+.rollx a img{
+    height: auto;
+    width: 11vw;
+    max-width: 60px;
+}
+@media only screen and (max-width:400px){
+    .rollx{  grid-template-columns:repeat(2,minmax(0,1fr)); gap: 10px 0px; 
+        
+}.rollx a img{
+    width: 14vw;
+    max-width: 50px;
+}
+}
         .rollx img{width: 60px; height: 60px;} .rollx a:hover {opacity: 0.5; transition: 0.2s;}
         @media only screen and (min-width:1018px) {#main4{ max-width: 1050px;}}
 @media only screen and (max-width:1090px) and (min-width:1018px){ #main4{margin: 0px 20px;} #header-content{margin-left: 20px; margin-right: 20px;} }
@@ -127,11 +140,6 @@
 }.rollx a{
     position: relative;
     margin: 0;
-}
-.rollx a img{
-    height: auto;
-    width: 11vw;
-    max-width: 60px;
 }
 .rollx a img:last-of-type{
     position: absolute;
