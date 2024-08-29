@@ -2,8 +2,6 @@
 <html lang="pt-br">
 
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
-     crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMW5Q2STCE"></script>
 <script>
@@ -49,18 +47,12 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
     <style>
-        a:hover svg {
-            fill: var(--dest);
-            transition: .2s;
-        }  
-        body {
-            letter-spacing: normal;
-        }
+        body{ cursor: url(https://genshinbuild.com/images/We/cursor.png), auto;}
         .adss{z-index: 1;}
-            .horizontal1, .horizontal2{
+            .horizontal1, .horizontal2, .horizontal3{
             display: flex; 
             }
-            .horizontal1, .horizontal2{
+            .horizontal1, .horizontal2, .horizontal3{
             justify-content: center;
             align-items: center;
             background-color: var(--css);
@@ -70,14 +62,23 @@
             .horizontal1, .horizontal2{
             min-height: 90px;
             }
-            .horizontal1::before, .horizontal2::before{
+            .horizontal3{
+            min-height: 280px;
+            }
+            .horizontal1::before, .horizontal2::before, .horizontal3::before{
             position: absolute;
             content: 'Este site é suportado por anúncios.';
-            font-size:min(15px,4vw);
-        }
+            font-size: 15px; }
            @media only screen and (min-width:1017px){.horizontal2{display: none;}}
     @media only screen and (max-width:1016px){.horizontal1{ display: none;} }
-    
+    @media only screen and (max-width:727px){.horizontal2{ display: none;} }
+    @media only screen and (min-width:728px){.horizontal3{ display: none;} }
+    .fixx{
+        position: fixed;
+    }
+    #Vert,#Vert2{position: absolute;  top: 111px;}
+    .vertical{display: block;}
+        @media only screen and (max-width:1359px){.vertical{display: none;} }
 @media only screen and (min-width: 729px){.agbox {width: 48.4%;}}
 @media only screen and (min-width:1017px) {#main2{ max-width: 1050px;}}
 @media only screen and (max-width:1090px) and (min-width:1017px){ #main2{margin: 0px 20px;} #header-content{margin-left: 20px; margin-right: 20px;} }
@@ -91,23 +92,76 @@
 }
 #nome div p:nth-child(2) {
     margin-top: 2px;
-    font-size: min(4.5vw, 17px);
-    padding: 2px 0px;
-    border-radius: 2px; 
+    font-size: min(4.5vw, 20px);
+    padding: 0px 8px;
+    border-radius: 2px; width: 100%;
 }
 #nome p:last-of-type {font-size: min(4.5vw, 17px);padding: 2px 0px;}
 #nome p:first-of-type {
     width: 100%;
-    font-size: min(4.5vw, 17px);padding: 2px 0px;
 }
 #nome div{
     display: flex; justify-content: space-between; align-items: center; width: 100%;
 }
     </style>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <?php
+    $id = get_the_ID();
+    ?>
+    <script>
+      window.googletag = window.googletag || {cmd: []};
+      googletag.cmd.push(function() {
+          
+        googletag.pubads().setTargeting("id_post_wp", ["<?php echo $id; ?>"]);
+       googletag.enableServices();
+      });
+    </script>
     
+    
+    
+    <script>
+    window.googletag = window.googletag || {cmd: []};
+    var bloco_interstitial;
+    googletag.cmd.push(function() {        
+    bloco_interstitial = googletag.defineOutOfPageSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_Interstitial_11082023', googletag.enums.OutOfPageFormat.INTERSTITIAL);
+    if (bloco_interstitial) bloco_interstitial.addService(googletag.pubads());
+    googletag.enableServices();
+    googletag.display(bloco_interstitial);
+    });
+    </script>
 </head>
 
 <body id="hydro">
+    <div class="vertical">
+        <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_lateral_11082023', [[160, 600]], 'div-gpt-ad-1606154628446-0').addService(googletag.pubads());
+            googletag.enableServices();
+            });
+            </script>
+        <div id="Vert" style="display: flex; justify-content: center; left: 10px;">
+            <div id='div-gpt-ad-1606154628446-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606154628446-0'); });
+            </script>
+            </div>
+        </div>
+        <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_lateral_11082023', [[160, 600]], 'div-gpt-ad-16068535728446-0').addService(googletag.pubads());
+            googletag.enableServices();
+            });
+            </script>
+        <div id="Vert2" style="display: flex; justify-content: center; right: 10px;">
+            <div id='div-gpt-ad-16068535728446-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-16068535728446-0'); });
+            </script>
+            </div>
+        </div>
+    </div>
     <div data-include-html="header.html"></div>
     <br>
     <main id="main2"> 
@@ -130,28 +184,55 @@
             <p class="owe">A melhor build para o Neuvillette é a de Main DPS. O objetivo dessa build é aumentar o dano dos Ataques Carregados do Neuvillette, aproveitando a sua mecânica de perder vida usando o conjunto de artefatos Caçador das Sombras e a arma Rito do Fluxo Eterno.</p><br>
             <div class="horizontal1">
                 
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
-     crossorigin="anonymous"></script>
-<!-- 1° Characters 970x90 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:970px;height:90px"
-     data-ad-client="ca-pub-1999593447203691"
-     data-ad-slot="9295361851"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                <script>
+                window.googletag = window.googletag || {cmd: []};
+                googletag.cmd.push(function() {
+                googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content1_11082023', [[970, 90]], 'div-gpt-ad-1607239006546-0').addService(googletag.pubads());
+                googletag.enableServices();
+                });
+                </script>
+            <div class="adss">
+                <div id='div-gpt-ad-1607239006546-0'>
+                <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006546-0'); });
+                </script>
+                </div>
+            </div>
             </div>
             <div class="horizontal2">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
-                crossorigin="anonymous"></script>
-           <!-- 1° Characters 728x90 -->
-           <ins class="adsbygoogle"
-                style="display:inline-block;width:728px;height:90px"
-                data-ad-client="ca-pub-1999593447203691"
-                data-ad-slot="8942974229"></ins>
-           <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-           </script>
+            <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content1_11082023', [[728, 90]], 'div-gpt-ad-1606111128353-0').addService(googletag.pubads());
+            googletag.enableServices();
+            });
+            </script>
+            
+            <div class="adss">
+            <div id='div-gpt-ad-1606111128353-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128353-0'); });
+            </script>
+            </div>
+            </div>  
+            </div>
+            <div class="horizontal3">
+            <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content1_11082023', [[250, 250], [336, 280], [300, 250]],
+            'div-gpt-ad-160618295246-0').addService(googletag.pubads());
+            googletag.enableServices();
+            });
+            </script>
+            
+            <div class="adss">
+            <div id='div-gpt-ad-160618295246-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295246-0'); });
+            </script>
+            </div>
+            </div>
             </div>
     <br>
             <h3 class="titulos3">Neuvillette Melhor Arma</h3>
@@ -183,28 +264,70 @@
             <br><p class="owe">Outras opções de armas para o Neuvillette são: <strong>Protótipo Âmbar</strong>, <strong>Esplendor Índigo</strong>, <strong>Oração Perdida aos Ventos Sagrados</strong> e <strong>	Canção do Vasto Azul</strong>.</p>
             <br>
             <div class="horizontal1">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
-                crossorigin="anonymous"></script>
-           <!-- 2° Characters 970x90 -->
-           <ins class="adsbygoogle"
-                style="display:inline-block;width:970px;height:90px"
-                data-ad-client="ca-pub-1999593447203691"
-                data-ad-slot="6059141654"></ins>
-           <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-           </script>
+                <script>
+                window.googletag = window.googletag || {cmd: []};
+                googletag.cmd.push(function() {
+                googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content2_11082023',
+                [[970, 90]], 'div-gpt-ad-1607239006533-0').addService(googletag.pubads());
+                googletag.pubads().enableLazyLoad({
+                fetchMarginPercent: 20,
+                renderMarginPercent: 10,
+                mobileScaling: 2.0
+                });
+                googletag.enableServices();
+                });
+                </script>
+            <div class="adss">
+            <div id='div-gpt-ad-1607239006533-0'>
+                <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006533-0'); });
+                </script>
+                </div>
+            </div>
             </div>
             <div class="horizontal2">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
-                crossorigin="anonymous"></script>
-           <!-- 2° Characters 728x90 -->
-           <ins class="adsbygoogle"
-                style="display:inline-block;width:728px;height:90px"
-                data-ad-client="ca-pub-1999593447203691"
-                data-ad-slot="4805769734"></ins>
-           <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-           </script>
+            <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content2_11082023',
+            [[728, 90]], 'div-gpt-ad-1606111128215-0').addService(googletag.pubads());
+            googletag.pubads().enableLazyLoad({
+            fetchMarginPercent: 20,
+            renderMarginPercent: 10,
+            mobileScaling: 2.0
+            });
+            googletag.enableServices();
+            });
+            </script>
+            <div class="adss">
+            <div id='div-gpt-ad-1606111128215-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128215-0'); });
+            </script>
+            </div>
+            </div>  
+            </div>
+            <div class="horizontal3">
+            <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content2_11082023', [[250, 250], [336, 280], [300, 250]],
+            'div-gpt-ad-160618295512-0').addService(googletag.pubads());
+            googletag.pubads().enableLazyLoad({
+            fetchMarginPercent: 20,
+            renderMarginPercent: 10,
+            mobileScaling: 2.0
+            });
+            googletag.enableServices();
+            });
+            </script>
+            <div class="adss">
+            <div id='div-gpt-ad-160618295512-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295512-0'); });
+            </script>
+            </div>
+            </div>
             </div><br>
             <h3 class="titulos3">Neuvillette Melhor Conjunto de Artefatos</h3>
             <p class="owe">O melhor conjunto de artefatos para o Neuvillette é o da <strong>Caçador das Sombras</strong>. Esse set aumenta os Ataques Normais e Carregados em 15% e a Taxa Crítica em até 33% com base nas vezes em que a vida do Neuvillette foi aumentada ou perdida.</p>
@@ -249,28 +372,68 @@
     
             <br>
             <div class="horizontal1">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
-     crossorigin="anonymous"></script>
-<!-- 3° Characters 970x90 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:970px;height:90px"
-     data-ad-client="ca-pub-1999593447203691"
-     data-ad-slot="2646193026"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                <script>
+                window.googletag = window.googletag || {cmd: []};
+                googletag.cmd.push(function() {
+                googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content3_11082023', [[970, 90]], 'div-gpt-ad-1607239006446-0').addService(googletag.pubads());
+            googletag.pubads().enableLazyLoad({
+                        fetchMarginPercent: 20,
+                        renderMarginPercent: 10,
+                        mobileScaling: 2.0
+                    });
+                googletag.enableServices();
+                });
+                </script>
+            <div class="adss">
+            <div id='div-gpt-ad-1607239006446-0'>
+                <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006446-0'); });
+                </script>
+                </div>
+            </div>
             </div>
             <div class="horizontal2">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
-                crossorigin="anonymous"></script>
-           <!-- 3° Characters 728x90 -->
-           <ins class="adsbygoogle"
-                style="display:inline-block;width:728px;height:90px"
-                data-ad-client="ca-pub-1999593447203691"
-                data-ad-slot="9806814971"></ins>
-           <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-           </script>
+            <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content3_11082023', [[728, 90]], 'div-gpt-ad-1606111128523-0').addService(googletag.pubads());
+            googletag.pubads().enableLazyLoad({
+                        fetchMarginPercent: 20,
+                        renderMarginPercent: 10,
+                        mobileScaling: 2.0
+                    });
+            googletag.enableServices();
+            });
+            </script>
+            <div class="adss">
+            <div id='div-gpt-ad-1606111128523-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128523-0'); });
+            </script>
+            </div>
+            </div>  
+            </div>
+            <div class="horizontal3">
+            <script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content3_11082023', [[250, 250], [336, 280], [300, 250]],
+            'div-gpt-ad-160618295656-0').addService(googletag.pubads());
+            googletag.pubads().enableLazyLoad({
+                        fetchMarginPercent: 20,
+                        renderMarginPercent: 10,
+                        mobileScaling: 2.0
+                    });
+            googletag.enableServices();
+            });
+            </script>
+            <div class="adss">
+            <div id='div-gpt-ad-160618295656-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295656-0'); });
+            </script>
+            </div>
+            </div>
             </div>
                 </div>
                
@@ -313,6 +476,71 @@
             <h3>Neuvillette Time Hypercarry Hydro</h3>
             <p><strong>Neuvillette</strong> será o Hypercarry nesse time, causando a maior parte de todo o dano e os outros personagens servirão para fortalecê-lo. 
                 <strong>Furina</strong> dará bônus de Dano adicional e Ressonância Hydro. <strong>Beidou</strong> reunirá inimigos e diminuirá a resistência elemental deles. <strong>Baizhu</strong> irá curar fora de campo, ajudando bastante na perca de HP da Furina.</p>
+                <br>
+                <div class="horizontal1">
+                    <script>
+                    window.googletag = window.googletag || {cmd: []};
+                    googletag.cmd.push(function() {
+                    googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content4_11082023', [[970, 90]], 'div-gpt-ad-1607239006443-0').addService(googletag.pubads());
+                googletag.pubads().enableLazyLoad({
+                            fetchMarginPercent: 20,
+                            renderMarginPercent: 10,
+                            mobileScaling: 2.0
+                        });
+                    googletag.enableServices();
+                    });
+                    </script>
+                <div class="adss">
+                <div id='div-gpt-ad-1607239006443-0'>
+                    <script>
+                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607239006443-0'); });
+                    </script>
+                    </div>
+                </div>
+                </div>
+                <div class="horizontal2">
+                <script>
+                window.googletag = window.googletag || {cmd: []};
+                googletag.cmd.push(function() {
+                googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content4_11082023', [[728, 90]], 'div-gpt-ad-1606111128526-0').addService(googletag.pubads());
+                googletag.pubads().enableLazyLoad({
+                            fetchMarginPercent: 20,
+                            renderMarginPercent: 10,
+                            mobileScaling: 2.0
+                        });
+                googletag.enableServices();
+                });
+                </script>
+                <div class="adss">
+                <div id='div-gpt-ad-1606111128526-0'>
+                <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1606111128526-0'); });
+                </script>
+                </div>
+                </div>  
+                </div>
+                <div class="horizontal3">
+                <script>
+                window.googletag = window.googletag || {cmd: []};
+                googletag.cmd.push(function() {
+                googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content4_11082023', [[250, 250], [336, 280], [300, 250]],
+                'div-gpt-ad-160618295653-0').addService(googletag.pubads());
+                googletag.pubads().enableLazyLoad({
+                            fetchMarginPercent: 20,
+                            renderMarginPercent: 10,
+                            mobileScaling: 2.0
+                        });
+                googletag.enableServices();
+                });
+                </script>
+                <div class="adss">
+                <div id='div-gpt-ad-160618295653-0'>
+                <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295653-0'); });
+                </script>
+                </div>
+                </div>
+                </div>
             </section>
         <div class="displayflex flexxa" style="max-width: none;">  <a href="https://genshinbuild.com/neuvillette"><img loading="lazy"
             src="https://genshinbuild.com/images/Characters/Neuvillette.webp" class="hy" alt="Neuvillette" title="Neuvillette">
@@ -428,10 +656,35 @@ src="https://genshinbuild.com/images/Characters/Baizhu.webp" class="de" alt="Bai
         <script>
             includeHTML();
             function includeHTML(){for(var t,e,n,i=document.getElementsByTagName("*"),s=0;s<i.length;s++)if(e=(t=i[s]).getAttribute("data-include-html"))return(n=new XMLHttpRequest).onreadystatechange=function(){4==this.readyState&&(200==this.status&&(t.innerHTML=this.responseText),404==this.status&&(t.innerHTML="Page not found."),t.removeAttribute("data-include-html"),includeHTML())},n.open("GET",e,!0),void n.send()}
+            window.onscroll = function() {fixi()};
+
+function fixi() {
+  if (document.documentElement.scrollTop > 111) {
+    document.getElementById("Vert").style.position = "fixed";
+    document.getElementById("Vert").style.top = "0";
+    document.getElementById("Vert2").style.position = "fixed";
+    document.getElementById("Vert2").style.top = "0";
+  } else {
+    document.getElementById("Vert").style.position = "";
+    document.getElementById("Vert").style.top = "";
+    document.getElementById("Vert2").style.position = "";
+    document.getElementById("Vert2").style.top = "";
+  }
+}
         </script>
-    
+    <script src="JavaScript/darkmode.js"></script>
     <script src="JavaScript/Menu.js"></script>
     <script src="https://kit.fontawesome.com/7e144ec40c.js" crossorigin="anonymous"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        var bloco_anchor;
+        googletag.cmd.push(function() {        
+        bloco_anchor = googletag.defineOutOfPageSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_m_BOTTOM_ANCHOR_11082023', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);
+        if (bloco_anchor) bloco_anchor.addService(googletag.pubads());
+        googletag.enableServices();
+        googletag.display(bloco_anchor);
+        });
+    </script>
 </body>
 
  

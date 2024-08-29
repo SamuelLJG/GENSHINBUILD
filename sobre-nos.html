@@ -47,10 +47,7 @@
     <meta property="og:site_name" content="Genshin Build">
     <meta property="og:type" content="website">
     <style>
-        a:hover svg {
-            fill: var(--dest);
-            transition: .2s;
-        }  
+        body{ cursor: url(https://genshinbuild.com/images/We/cursor.png), auto;}
         main p{line-height: 2em;opacity: 0.96; font-size: 16px;}h2{font-size: 22px;}
         @media only screen and (min-width:1017px) {#main2{ max-width: 1050px;}}
 @media only screen and (max-width:1090px) and (min-width:1017px){ #main2{margin: 0px 20px;} #header-content{margin-left: 20px; margin-right: 20px;} }
@@ -81,7 +78,7 @@
         includeHTML();
         function includeHTML(){for(var t,e,n,i=document.getElementsByTagName("*"),s=0;s<i.length;s++)if(e=(t=i[s]).getAttribute("data-include-html"))return(n=new XMLHttpRequest).onreadystatechange=function(){4==this.readyState&&(200==this.status&&(t.innerHTML=this.responseText),404==this.status&&(t.innerHTML="Page not found."),t.removeAttribute("data-include-html"),includeHTML())},n.open("GET",e,!0),void n.send()}
     </script>
-    
+    <script src="JavaScript/darkmode.js"></script>
     <script src="JavaScript/Menu.js"></script>
     <script src="https://kit.fontawesome.com/7e144ec40c.js" crossorigin="anonymous"></script>
 </body>
